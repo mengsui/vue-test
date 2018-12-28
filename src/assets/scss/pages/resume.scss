@@ -1,0 +1,142 @@
+
+@font-face {
+  font-family: 'iconfont';  /* project id 983105 */
+  src: url('//at.alicdn.com/t/font_983105_hnzs55n5ikw.eot');
+  src: url('//at.alicdn.com/t/font_983105_hnzs55n5ikw.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_983105_hnzs55n5ikw.woff') format('woff'),
+  url('//at.alicdn.com/t/font_983105_hnzs55n5ikw.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_983105_hnzs55n5ikw.svg#iconfont') format('svg');
+}
+.icon{
+  font-size: 24px;
+  margin-right: 10px;
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.contant {
+  width: 1200px;
+  margin: 0 auto;
+
+  .mod_left {
+    display: table-cell;
+    width: 380px;
+    padding: 55px 30px 100px;
+    background-color: #2c4a62;
+    color: #fff;
+
+    .img {
+      width: 190px;
+      height: 190px;
+      margin: 0 auto 40px;
+      padding: 5px;
+      border-radius: 50%;
+      background-color: #fff;
+
+      .head-img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 50%;
+        background-size: cover;
+      }
+    }
+
+    .same {
+      font-size: 20px;
+      line-height: 24px;
+      padding: 10px 0;
+    }
+
+    .ty-title {
+      font-size: 25px;
+      line-height: 40px;
+      font-weight: bold;
+
+      .icon {
+        font-size: 30px;
+        font-weight: 200;
+      }
+    }
+
+    .speciality {
+      margin-top: 80px;
+
+      .solt {
+        margin: 25px 15px 0;
+      }
+    }
+
+    .label {
+      margin-top: 60px;
+
+      .lable-sty>li {
+        margin: 15px 15px 0 0;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 8px 0 8px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+
+        .icon {
+          font-size: 20px;
+          margin: 0 5px 0 0;
+        }
+      }
+    }
+  }
+
+  .mod_right {
+    width: 820px;
+    padding: 30px 0 50px 50px;
+    display: table-cell;
+    vertical-align: top;
+    background-color: #eee;
+
+    .work-box {
+      margin-top: 30px;
+    }
+
+    .name {
+      font-size: 42px;
+      line-height: 60px;
+      font-weight: bold;
+    }
+
+    .explain {
+      font-size: 24px;
+      color: #000;
+      line-height: 34px;
+    }
+
+    .advantage {
+      margin-top: 20px;
+      padding-left: 50px;
+      color: #868686;
+      font-size: 18px;
+    }
+
+    .intention {
+      padding-left: 50px;
+
+      li {
+        margin-top: 20px;
+        margin-right: 40px;
+        line-height: 30px;
+        color: #868686;
+        font-size: 18px;
+
+        .icon {
+          width: 30px;
+          height: 30px;
+          font-size: 30px;
+          color: #868686;
+        }
+      }
+    }
+  }
+}
