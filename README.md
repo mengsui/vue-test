@@ -1,9 +1,6 @@
-# vue-test
+# 个人简历介绍
 
 ``` bash
-#scss less 编译方式
-npm install style-loader css-loader sass-loader less-loader node-sass postcss-loader --save
-
 # install dependencies
 npm install
 
