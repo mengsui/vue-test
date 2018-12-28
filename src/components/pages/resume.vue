@@ -50,8 +50,9 @@
       </div>
     </div>
     <div class="mod_right">
-      <!-- <p class="name">{{ name }}</p> -->
-      <!-- <p class="explain">博客：<a href="https://blog.csdn.net/qq_42813932" target="_blank">https://blog.csdn.net/qq_42813932</a></p> -->
+      <p class="name">{{ name }}</p>
+      <p class="explain">博客：<a href="https://blog.csdn.net/qq_42813932" target="_blank">https://blog.csdn.net/qq_42813932</a></p>
+      <p class="explain">简历git：<a href="https://github.com/mengsui/vue-test" target="_blank">https://github.com/mengsui/vue-test</a></p>
       <Title icon="&#xe619;" size="个人优势"/>
       <div class="advantage">
         1. 精通html5+css,html基本布局和重构以及html5+css3新特性，根据设计图完成页面制作。<br/>

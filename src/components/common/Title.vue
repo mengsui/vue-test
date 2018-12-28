@@ -9,11 +9,6 @@
 export default {
   name: 'Ttitle',
   props: ['icon','size'],
-  data() {
-    return {
-
-    }
-  },
 }
 </script>
 
