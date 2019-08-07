@@ -28,6 +28,7 @@
             <el-menu-item-group>
               <span slot="title">canvas</span>
               <el-menu-item index="/percentage">百分比动画</el-menu-item>
+              <el-menu-item index="/chinaMap">中国地图</el-menu-item>
               <!-- <el-menu-item index="2-2">选项2</el-menu-item> -->
             </el-menu-item-group>
 
@@ -40,7 +41,8 @@
   </div>
 </template>
 <script>
-import resume from './pages/resume'
+import resume from '@/views/Resume/Resume';
+
 export default {
   name: 'home',
   components: {
@@ -49,5 +51,5 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  @import '../assets/scss/Home.scss';
+  @import '../../assets/scss/Home.scss';
 </style>

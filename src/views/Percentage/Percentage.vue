@@ -38,7 +38,7 @@
   </div>
 </template>
 <script>
-import Perc from '../common/Percentage'
+import Perc from '@/components/Percentage'
 export default {
   name: 'percen',
   components: {

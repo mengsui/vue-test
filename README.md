@@ -10,3 +10,5 @@ npm run dev
 #注意事项：
 new Router：
 mode: 'history' //加载模式选择  默认：hash
+
+#添加中国地图  chinaMap

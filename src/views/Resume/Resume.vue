@@ -81,9 +81,9 @@
 </template>
 
 <script>
-import Perc from '../common/Percentage';
-import Title from '../common/Title';
-import Work from '../common/Work';
+import Perc from '@/components/Percentage';
+import Title from '@/components/Title';
+import Work from '@/components/Work';
 export default {
   name: 'home',
   components: {

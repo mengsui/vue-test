@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './../components/Home'
-import Resume from './../components/pages/resume'
-import Percentage from './../components/pages/percentage'
+import Home from '@/views/Home/Home'
+import Resume from '@/views/Resume/Resume'
+import Percentage from '@/views/Percentage/Percentage'
+import ChinaMap from '@/views/ChinaMap/ChinaMap'
 
 Vue.use(Router)
 
@@ -20,9 +21,14 @@ export default new Router({
       component: Resume
     },
     {
-      path: '/Percentage',
+      path: '/percentage',
       name: 'Percentage',
       component: Percentage
-    }
+    },
+    {
+      path: '/chinaMap',
+      name: 'ChinaMap',
+      component: ChinaMap
+    },
   ]
 })

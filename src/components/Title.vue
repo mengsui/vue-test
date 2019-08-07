@@ -13,5 +13,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import '../../assets/scss/common/Title.scss';
+  @import '../assets/scss/common/Title.scss';
 </style>
